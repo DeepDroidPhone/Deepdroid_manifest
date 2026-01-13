@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="external/faceunlock" name="Deepdroid_external_faceunlock" remote="deepdroid" />
+  <project path="external/bouncycastle" name="Deepdroid_external_bouncycastle" remote="deepdroid" />
+  
+  <project path="bionic" name="Deepdroid_bionic" remote="deepdroid" />
+  <project path="bootable/recovery" name="Deepdroid_bootable_recovery" remote="deepdroid" />
+
+  <project path="libcore" name="Deepdroid_libcore" remote="deepdroid" />
+
+  <project path="device/custom/sepolicy" name="Deepdroid_device_custom_sepolicy" remote="deepdroid" />
+  
+  <project path="frameworks/base" name="Deepdroid_frameworks_base" remote="deepdroid" />
+  <project path="frameworks/opt/telephony" name="Deepdroid_frameworks_opt_telephony" remote="deepdroid" />
+
+  <project path="packages/apps/Settings" name="Deepdroid_packages_apps_Settings" remote="deepdroid" />
+  <project path="packages/modules/adb" name="Deepdroid_packages_modules_adb" remote="deepdroid" />
+  <project path="packages/modules/Bluetooth" name="Deepdroid_packages_modules_Bluetooth" remote="deepdroid" />
+  <project path="packages/modules/Connectivity" name="Deepdroid_packages_modules_Connectivity" remote="deepdroid" />
+  <project path="packages/modules/Wifi" name="Deepdroid_packages_modules_Wifi" remote="deepdroid" />
+
+  <project path="system/core" name="Deepdroid_system_core" remote="deepdroid" />
+
+  <project path="vendor/aosp" name="Deepdroid_vendor_aosp" remote="deepdroid" />
+  <project path="vendor/gms" name="vendor_gms" remote="deepdroid-gitlab" clone-depth="1" />
+  <project path="vendor/binary" name="Deepdroid_vendor_binary" remote="deepdroid" />
+
+</manifest>

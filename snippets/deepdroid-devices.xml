@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!--sargo/bonito-->
+  <project path="device/google/sargo" remote="deepdroid" name="Deepdroid_device_google_sargo" revision="thirteen" />
+  <project path="device/google/bonito" remote="deepdroid" name="Deepdroid_device_google_bonito" revision="thirteen" />
+  <project path="vendor/google/sargo" remote="deepdroid" name="Deepdroid_vendor_google_sargo" revision="thirteen" />
+  <project path="vendor/google/bonito" remote="deepdroid" name="Deepdroid_vendor_google_bonito" revision="thirteen" />
+  <project path="kernel/google/msm-4.9" remote="deepdroid" name="Deepdroid_kernel_google_msm-4.9" revision="thirteen" />
+  
+  <!--starlte-->
+  <project path="device/samsung/starlte" remote="deepdroid" name="Deepdroid_device_samsung_starlte" revision="thirteen" />
+  <project path="device/samsung/exynos9810-common" remote="deepdroid" name="Deepdroid_device_samsung_exynos9810-common" revision="thirteen" />
+  <project path="vendor/samsung/starlte" remote="deepdroid" name="Deepdroid_vendor_samsung_starlte" revision="thirteen" />
+  <project path="vendor/samsung/exynos9810-common" remote="deepdroid" name="Deepdroid_vendor_samsung_exynos9810-common" revision="thirteen" />
+  <project path="device/samsung_slsi/sepolicy" remote="deepdroid" name="Deepdroid_device_samsung_slsi_sepolicy" revision="thirteen" />
+  <project path="kernel/samsung/exynos9810" remote="deepdroid" name="Deepdroid_kernel_samsung_exynos9810" revision="thirteen" />
+
+  <!--tissot-->
+  <project path="hardware/xiaomi" remote="deepdroid" name="Deepdroid_hardware_xiaomi" revision="lineage-20" />
+  <project path="kernel/xiaomi/msm8953" remote="deepdroid" name="Deepdroid_kernel_xiaomi_tissot" revision="thirteen" />
+  <project path="device/xiaomi/tissot" remote="deepdroid" name="Deepdroid_device_xiaomi_tissot" revision="thirteen" />
+  <project path="device/xiaomi/msm8953-common" remote="deepdroid" name="Deepdroid_device_xiaomi_msm8953-common" revision="thirteen" />
+  <project path="vendor/xiaomi/tissot" remote="deepdroid" name="Deepdroid_vendor_xiaomi_tissot" revision="thirteen" />
+  <project path="vendor/xiaomi/msm8953-common" remote="deepdroid" name="Deepdroid_vendor_xiaomi_msm8953-common" revision="thirteen" />
+
+</manifest>

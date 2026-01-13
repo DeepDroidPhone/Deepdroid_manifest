@@ -1211,5 +1211,7 @@
   <include name="snippets/pixel.xml" />
   <include name="snippets/pixel-extras.xml" />
   <include name="snippets/pixel-caf.xml" />
+  <include name="snippets/deepdroid.xml" />
+  <include name="snippets/deepdroid-devices.xml" />
 
 </manifest>

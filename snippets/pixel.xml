@@ -15,8 +15,20 @@
           revision="thirteen" />
 
   <remote name="pixel-devices-blobs"
-          fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
+          fetch="https://github.com/PixelExperience-Blobs"
           revision="thirteen" />
+
+  <remote name="deepdroid"
+        fetch="https://github.com/doanvtamhuynh"
+        revision="thirteen" />
+
+  <remote name="deepdroid-gitlab"
+          fetch="https://gitlab.com/doanvtamhuynh/"
+          revision="thirteen" />
+
+  <remote name="lineage-forks"
+          fetch="https://github.com"
+          revision="lineage-20.0"/>
 
   <!-- External repos -->
   <project path="external/avb" name="external_avb" remote="pixel" />
@@ -41,16 +53,13 @@
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixel" />
-  <project path="frameworks/base" name="frameworks_base" remote="pixel" />
   <project path="frameworks/native" name="frameworks_native" remote="pixel" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixel" />
   <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="pixel" />
 
   <!-- General repos -->
   <project path="art" name="art" remote="pixel" />
-  <project path="bionic" name="bionic" remote="pixel" />
   <project path="build/make" name="build" remote="pixel">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -65,14 +74,12 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="build/blueprint" name="build_blueprint" remote="pixel" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
   <project path="cts" name="cts" remote="pixel" />
   <project path="development" name="development" remote="pixel" />
   <project path="device/google/cuttlefish" name="device_google_cuttlefish" remote="pixel" />
   <project path="device/google/contexthub" name="device_google_contexthub" remote="pixel" />
   <project path="kernel/configs" name="kernel_configs" remote="pixel" />
   <project path="manifest" name="manifest" remote="pixel" />
-  <project path="libcore" name="libcore" remote="pixel" />
   <project path="platform_testing" name="platform_testing" remote="pixel" />
 
   <!-- Hardware repos -->
@@ -112,18 +119,13 @@
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="pixel" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="pixel" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="pixel" />
   <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="pixel" />
-  <project path="packages/modules/adb" name="packages_modules_adb" remote="pixel" />
-  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="pixel" />
-  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="pixel" />
   <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="pixel" />
   <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="pixel" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="pixel" />
   <project path="packages/modules/StatsD" name="packages_modules_StatsD" remote="pixel" />
   <project path="packages/modules/Virtualization" name="packages_modules_Virtualization" remote="pixel" />
-  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="pixel" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="pixel" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="pixel" />
@@ -137,7 +139,6 @@
   <project path="system/apex" name="system_apex" remote="pixel" />
   <project path="system/bpf" name="system_bpf" remote="pixel" />
   <project path="system/ca-certificates" name="system_ca-certificates" remote="pixel" />
-  <project path="system/core" name="system_core" remote="pixel" />
   <project path="system/extras" name="system_extras" remote="pixel" />
   <project path="system/incremental_delivery" name="system_incremental_delivery" remote="pixel" />
   <project path="system/libhidl" name="system_libhidl" remote="pixel" />
