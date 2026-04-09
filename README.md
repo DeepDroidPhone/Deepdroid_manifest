@@ -6,7 +6,7 @@ The android13 repo tree is now private!!!
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/doanvtamhuynh/Deepdroid_manifest -b thirteen
+repo init -u https://github.com/DeepDroidPhone/Deepdroid_manifest -b thirteen
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
