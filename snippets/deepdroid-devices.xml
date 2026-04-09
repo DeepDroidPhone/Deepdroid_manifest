@@ -17,7 +17,7 @@
   <project path="kernel/samsung/exynos9810" remote="deepdroid" name="Deepdroid_kernel_samsung_exynos9810" revision="thirteen" />
 
   <!--tissot-->
-  <project path="hardware/xiaomi" remote="deepdroid" name="Deepdroid_hardware_xiaomi" revision="lineage-20" />
+  <project path="hardware/xiaomi" remote="deepdroid" name="Deepdroid_hardware_xiaomi" revision="thirteen" />
   <project path="kernel/xiaomi/msm8953" remote="deepdroid" name="Deepdroid_kernel_xiaomi_tissot" revision="thirteen" />
   <project path="device/xiaomi/tissot" remote="deepdroid" name="Deepdroid_device_xiaomi_tissot" revision="thirteen" />
   <project path="device/xiaomi/msm8953-common" remote="deepdroid" name="Deepdroid_device_xiaomi_msm8953-common" revision="thirteen" />
