@@ -10,6 +10,16 @@
   <project path="libcore" name="Deepdroid_libcore" remote="deepdroid" />
 
   <project path="device/custom/sepolicy" name="Deepdroid_device_custom_sepolicy" remote="deepdroid" />
+
+  <project path="build/make" name="Deepdroid_build" remote="deepdroid">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
   
   <project path="frameworks/base" name="Deepdroid_frameworks_base" remote="deepdroid" />
   <project path="frameworks/native" name="Deepdroid_frameworks_native" remote="deepdroid" />
@@ -22,6 +32,7 @@
   <project path="packages/modules/Wifi" name="Deepdroid_packages_modules_Wifi" remote="deepdroid" />
 
   <project path="system/core" name="Deepdroid_system_core" remote="deepdroid" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="deepdroid" />
 
   <project path="vendor/aosp" name="Deepdroid_vendor_aosp" remote="deepdroid" />
   <project path="vendor/gms" name="vendor_gms" remote="deepdroid-gitlab" clone-depth="1" />
