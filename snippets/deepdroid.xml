@@ -32,7 +32,7 @@
   <project path="packages/modules/Wifi" name="Deepdroid_packages_modules_Wifi" remote="deepdroid" />
 
   <project path="system/core" name="Deepdroid_system_core" remote="deepdroid" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="deepdroid" />
+  <project path="system/sepolicy" name="Deepdroid_system_sepolicy" remote="deepdroid" />
 
   <project path="vendor/aosp" name="Deepdroid_vendor_aosp" remote="deepdroid" />
   <project path="vendor/gms" name="vendor_gms" remote="deepdroid-gitlab" clone-depth="1" />
