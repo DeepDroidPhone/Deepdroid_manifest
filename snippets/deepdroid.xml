@@ -38,5 +38,6 @@
   <project path="vendor/aosp" name="Deepdroid_vendor_aosp" remote="deepdroid" />
   <project path="vendor/gms" name="vendor_gms" remote="deepdroid-gitlab" clone-depth="1" />
   <project path="vendor/deepdroid_apps" name="Deepdroid_vendor_deepdroid_apps" remote="deepdroid" />
-
+  <project path="vendor/custom-preference" name="Deepdroid_vendor_custom-preference" remote="deepdroid" />
+  <project path="vendor/pixel-framework" name="Deepdroid_vendor_pixel-framework" remote="deepdroid" />
 </manifest>

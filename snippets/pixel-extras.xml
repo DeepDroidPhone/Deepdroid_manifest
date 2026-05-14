@@ -8,10 +8,6 @@
   <project path="external/ntfs-3g" name="external_ntfs-3g" remote="pixel" />
   <project path="external/tinyxml" name="external_tinyxml" remote="pixel" />
 
-  <!-- General repos -->
-  <project path="vendor/custom-preference" name="vendor_custom-preference" remote="pixel" />
-  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="pixel" />
-
   <!-- Hardware repos -->
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="pixel" />
   <project path="hardware/custom/compat" name="hardware_custom_compat" remote="pixel" />
