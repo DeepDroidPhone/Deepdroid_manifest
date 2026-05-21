@@ -25,6 +25,8 @@
   <project path="frameworks/native" name="Deepdroid_frameworks_native" remote="deepdroid" />
   <project path="frameworks/opt/telephony" name="Deepdroid_frameworks_opt_telephony" remote="deepdroid" />
 
+  <project path="packages/apps/MiuiSecurityCenter" name="Deepdroid_packages_apps_MiuiSecurityCenter" remote="deepdroid" />
+  <project path="packages/apps/MiuiSecurityManager" name="Deepdroid_packages_apps_MiuiSecurityManager" remote="deepdroid" />
   <project path="packages/apps/Settings" name="Deepdroid_packages_apps_Settings" remote="deepdroid" />
   <project path="packages/modules/adb" name="Deepdroid_packages_modules_adb" remote="deepdroid" />
   <project path="packages/modules/Bluetooth" name="Deepdroid_packages_modules_Bluetooth" remote="deepdroid" />
