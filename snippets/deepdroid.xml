@@ -32,6 +32,7 @@
   <project path="packages/modules/Bluetooth" name="Deepdroid_packages_modules_Bluetooth" remote="deepdroid" />
   <project path="packages/modules/Connectivity" name="Deepdroid_packages_modules_Connectivity" remote="deepdroid" />
   <project path="packages/modules/Wifi" name="Deepdroid_packages_modules_Wifi" remote="deepdroid" />
+  <project path="packages/services/Telecomm" name="Deepdroid_packages_services_Telecomm" remote="deepdroid" />
   <project path="packages/services/Telephony" name="Deepdroid_packages_services_Telephony" remote="deepdroid" />
 
   <project path="system/core" name="Deepdroid_system_core" remote="deepdroid" />
